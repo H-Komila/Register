@@ -5,6 +5,7 @@
 
 html{
     scroll-behavior: smooth;
+
 }
 body {
     overflow-x: hidden;
@@ -53,7 +54,6 @@ body {
     background-color: #ffffff77;
     animation: fadeSlide 0.8s ease-out;
     transition: 0.3s, background-color 0.5s, box-shadow 0.5s;
-    overflow: hidden;
 }
 
 .register__form {
@@ -138,7 +138,8 @@ body {
     }
 
     .register {
-        margin-top: 23%;
+       position: relative;
+       top: 80px;
         width: 100%;
         padding: 20px;
     }
@@ -154,6 +155,8 @@ body {
     }
 
     .register__form {
+        position: relative;
+        top: -35px;
         background: linear-gradient(to left, #4261fb, #00eaff);
         width: 100%;
         height: 100vh;
@@ -871,10 +874,17 @@ margin-bottom: 5px;
         gap: 20px;
     }
 
-    .header__item, .header__item1, .header__item2, 
-    .header__item4, .header__item5, .header__item6 {
-        width: 120px;
+     .header__item1, .header__item2, .header__item5, .header__item6 {
+        width: 140px;
         height: auto;
+    }
+    .header__item,.header__item4{
+        width: 120px;
+        height: 230px;
+    }
+    .rasm, .rasm4{
+        width: 100px;
+        height: 200px;
     }
 
     .header__item3 {
